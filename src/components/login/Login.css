@@ -35,9 +35,30 @@
     background-color: burlywood;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .form-link {
     color: orangered;
     text-decoration: none;
+}
+
+.or-border {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.or-border div {
+    border: 1px solid lightgray;
+    width: 150px;
+}
+
+.or-border p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
